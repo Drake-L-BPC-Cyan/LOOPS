@@ -4,12 +4,12 @@
 
 <?php
 
-$Number = 1;
+$x = 1;
 
-while ($Number != 100) {
-	$Number + 1;
-	echo "I added another one, I'm now $Number";
-}
+do{
+	echo "I added another one, I'm now $x <br>";
+	$x++;
+} while ($x<=100);
 ?>
 
 </body>
